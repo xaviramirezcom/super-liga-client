@@ -3,8 +3,8 @@
 /* Controllers */
 
 angular.module('app.controllers', ['pascalprecht.translate', 'ngCookies'])
-    .controller('AppCtrl', ['$scope', '$translate', '$localStorage', '$window',
-        function ($scope, $translate, $localStorage, $window, $rootScope) {
+    .controller('AppCtrl', ['$scope', '$translate', '$localStorage', '$window', 'restServices',
+        function ($scope, $translate, $localStorage, $window, restServices) {
             // add 'ie' classes to html
             var isIE = !!navigator.userAgent.match(/MSIE/i);
             isIE && angular.element($window.document.body).addClass('ie');
@@ -554,22 +554,18 @@ angular.module('app.controllers', ['pascalprecht.translate', 'ngCookies'])
     }])
 
     // signin controller
-    .controller('SigninFormController', ['$scope', '$http', '$state', function ($scope, $http, $state) {
+    .controller('SigninFormController', ['$scope', '$http', '$state', 'restServices',
+        function ($scope, $http, $state, restServices) {
         $scope.app.customSettings.accessPages=true;
         $scope.user = {};
         $scope.authError = null;
         $scope.login = function () {
-            $scope.authError = null;
-            // Try to login
-            $http.post('api/login', {email: $scope.user.email, password: $scope.user.password})
-                .then(function (response) {
-                    if (!response.data.user) {
-                        $scope.authError = 'Email or Password not right';
-                    } else {
-                        $state.go('app.dashboard-v1');
-                    }
-                }, function (x) {
-                    $scope.authError = 'Server Error';
+            restServices.post('user/login',
+                {email: $scope.user.email, password: $scope.user.password}
+            ).then(function (response) {
+                $state.go('app.dashboard-v1');
+            }, function(){
+                    $scope.authError = 'Sorry, something goes wrong';
                 });
         };
     }])

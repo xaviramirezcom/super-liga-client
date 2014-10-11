@@ -1262,10 +1262,10 @@ html {
     overflow-x: hidden;
   }
   .app-content {
-    -webkit-transition: -webkit-transform 0.2s ease;
-       -moz-transition: -moz-transform 0.2s ease;
-         -o-transition: -o-transform 0.2s ease;
-            transition: transform 0.2s ease;
+    -webkit-transition: -webkit-transform 0.6s ease;
+       -moz-transition: -moz-transform 0.6s ease;
+         -o-transition: -o-transform 0.6s ease;
+            transition: transform 0.6s ease;
   }
   .off-screen {
     position: absolute;
@@ -1292,10 +1292,10 @@ html {
     background-color: #f0f3f4;
     -webkit-transform: translate3d(75%, 0, 0px);
             transform: translate3d(75%, 0, 0px);
-    -webkit-transition: -webkit-transform 0.2s ease;
-       -moz-transition: -moz-transform 0.2s ease;
-         -o-transition: -o-transform 0.2s ease;
-            transition: transform 0.2s ease;
+    -webkit-transition: -webkit-transform 0.6s ease;
+       -moz-transition: -moz-transform 0.6s ease;
+         -o-transition: -o-transform 0.6s ease;
+            transition: transform 0.6s ease;
     -webkit-backface-visibility: hidden;
        -moz-backface-visibility: hidden;
             backface-visibility: hidden;
