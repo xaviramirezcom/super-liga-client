@@ -7,10 +7,10 @@
         </div>
         <form name="form" class="form-validation">
             <a class="btn btn-lg btn-primary btn-block m-t-lg" href="#/access/signin"
-                    ng-disabled='form.$invalid'>Log in
+               ng-disabled='form.$invalid'>Log in
             </a>
-            <button type="submit" class="btn btn-lg btn-info btn-block" ng-click="login()"
-                    ng-disabled='form.$invalid'>Log in with Facebook
+            <button type="submit" class="btn btn-lg btn-info btn-block" ng-click="facebookLogin()"
+                    >Log in with Facebook
             </button>
             <a ui-sref="access.signup" class="btn btn-lg btn-default btn-block">Create an account</a>
         </form>

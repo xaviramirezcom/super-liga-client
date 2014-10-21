@@ -1,8 +1,8 @@
 module.exports = {
 	app: {
         files: {
-          'src/css/app.css': [
-            'src/css/less/app.less'
+          'www/src/css/app.css': [
+            'www/src/css/less/app.less'
           ]
         },
         options: {

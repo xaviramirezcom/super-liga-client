@@ -37,8 +37,8 @@ angular.module('app.controllers', ['pascalprecht.translate', 'ngCookies'])
                     container: false
 
                 },
-                customSettings:{
-                    accessPages:false
+                customSettings: {
+                    accessPages: false
                 }
             }
 
@@ -75,9 +75,10 @@ angular.module('app.controllers', ['pascalprecht.translate', 'ngCookies'])
                 // Checks for iOs, Android, Blackberry, Opera Mini, and Windows mobile devices
                 return (/iPhone|iPod|iPad|Silk|Android|BlackBerry|Opera Mini|IEMobile/).test(ua);
             }
+
             $scope.$on('$stateChangeSuccess',
-                function(event, toState, toParams, fromState, fromParams){
-                    $scope.app.customSettings.accessPages=false;
+                function (event, toState, toParams, fromState, fromParams) {
+                    $scope.app.customSettings.accessPages = false;
                 });
 
         }])
@@ -554,21 +555,28 @@ angular.module('app.controllers', ['pascalprecht.translate', 'ngCookies'])
     }])
 
     // signin controller
-    .controller('SigninFormController', ['$scope', '$http', '$state', 'restServices',
-        function ($scope, $http, $state, restServices) {
-        $scope.app.customSettings.accessPages=true;
-        $scope.user = {};
-        $scope.authError = null;
-        $scope.login = function () {
-            restServices.post('user/login',
-                {email: $scope.user.email, password: $scope.user.password}
-            ).then(function (response) {
-                $state.go('app.dashboard-v1');
-            }, function(){
-                    $scope.authError = 'Sorry, something goes wrong';
+    .controller('SigninFormController', ['$scope', '$http', '$state', 'restServices', 'Facebook',
+        function ($scope, $http, $state, restServices, Facebook) {
+            $scope.facebookLogin = function () {
+                // From now on you can use the Facebook service just as Facebook api says
+                Facebook.login(function (response) {
+                    console.log(response);
                 });
-        };
-    }])
+            };
+
+            $scope.app.customSettings.accessPages = true;
+            $scope.user = {};
+            $scope.authError = null;
+            $scope.login = function () {
+                restServices.post('user/login',
+                    {email: $scope.user.email, password: $scope.user.password}
+                ).then(function (response) {
+                        $state.go('app.dashboard-v1');
+                    }, function () {
+                        $scope.authError = 'Sorry, something goes wrong';
+                    });
+            };
+        }])
 
     // signup controller
     .controller('SignupFormController', ['$scope', '$http', '$state', function ($scope, $http, $state) {
