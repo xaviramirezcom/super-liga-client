@@ -555,14 +555,12 @@ angular.module('app.controllers', ['pascalprecht.translate', 'ngCookies'])
     }])
 
     // signin controller
-    .controller('SigninFormController', ['$scope', '$http', '$state', 'restServices', 'Facebook',
-        function ($scope, $http, $state, restServices, Facebook) {
-            $scope.facebookLogin = function () {
-                // From now on you can use the Facebook service just as Facebook api says
-                Facebook.login(function (response) {
-                    console.log(response);
-                });
-            };
+    .controller('SigninFormController', ['$scope', '$http', '$state', 'restServices', '$localStorage',
+        function ($scope, $http, $state, restServices, $localStorage) {
+
+            if (angular.isDefined($localStorage.user) && angular.isDefined($localStorage.user.login) && $localStorage.user.login == true) {
+                $state.go('app.dashboard-v1');
+            }
 
             $scope.app.customSettings.accessPages = true;
             $scope.user = {};
@@ -571,6 +569,8 @@ angular.module('app.controllers', ['pascalprecht.translate', 'ngCookies'])
                 restServices.post('user/login',
                     {email: $scope.user.email, password: $scope.user.password}
                 ).then(function (response) {
+                        $localStorage.user={};
+                        $localStorage.user.login = true;
                         $state.go('app.dashboard-v1');
                     }, function () {
                         $scope.authError = 'Sorry, something goes wrong';
@@ -579,22 +579,28 @@ angular.module('app.controllers', ['pascalprecht.translate', 'ngCookies'])
         }])
 
     // signup controller
-    .controller('SignupFormController', ['$scope', '$http', '$state', 'restServices', function ($scope, $http, $state, restServices) {
-        $scope.user = {};
-        $scope.app.customSettings.accessPages = true;
-        $scope.authError = null;
+    .controller('SignupFormController', ['$scope', '$http', '$state', 'restServices', '$localStorage',
+        function ($scope, $http, $state, restServices, $localStorage) {
+            if (angular.isDefined($localStorage.user) && angular.isDefined($localStorage.user.login) && $localStorage.user.login == true) {
+                $state.go('app.dashboard-v1');
+            }
+            $scope.user = {};
+            $scope.app.customSettings.accessPages = true;
+            $scope.authError = null;
 
 
-        $scope.signUp = function () {
-            restServices.post('user/signup',
-                {name: $scope.user.name, email: $scope.user.email, password: $scope.user.password}
-            ).then(function (response) {
-                    $state.go('app.dashboard-v1');
-                }, function () {
-                    $scope.authError = 'Sorry, something goes wrong';
-                })
-        };
-    }])
+            $scope.signUp = function () {
+                restServices.post('user/signup',
+                    {name: $scope.user.name, email: $scope.user.email, password: $scope.user.password}
+                ).then(function (response) {
+                        $localStorage.user={};
+                        $localStorage.user.login = true;
+                        $state.go('app.dashboard-v1');
+                    }, function () {
+                        $scope.authError = 'Sorry, something goes wrong';
+                    })
+            };
+        }])
     // tab controller
     .controller('CustomTabController', ['$scope', function ($scope) {
         $scope.tabs = [true, false, false];
