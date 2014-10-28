@@ -57,6 +57,7 @@
         "angular-bootstrap-nav-tree": "*",
         "angular-file-upload": "~1.1.1",
         "ngImgCrop": "~0.2.0",
-        "angular-facebook": "*"
+        "angular-facebook": "*",
+        "ionic": "driftyco/ionic-bower#1.0.0-beta.13"
     }
 }

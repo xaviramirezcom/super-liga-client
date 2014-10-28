@@ -1,0 +1,55 @@
+<div class="hbox hbox-auto-sm" ng-init="
+    app.settings.asideFolded = false;
+    app.settings.asideDock = false;
+  ">
+    <!-- main -->
+    <div class="col ">
+        <div class="vbox">
+            <div class="row-row">
+                <div class="cell">
+                    <div class="cell-inner">
+                        <ion-slide-box on-slide-changed="slideHasChanged($index)" show-pager="true" class="h-full">
+                            <ion-slide >
+                                <div >
+                                    <div class="panel padder-v item">
+                                        <div class="h1 text-info font-thin h1">521</div>
+                                        <span class="text-muted text-xs">New items</span>
+
+                                        <div class="top text-right w-full">
+                                            <i class="fa fa-caret-down text-warning m-r-sm"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ion-slide>
+                            <ion-slide >
+                                <div >
+                                    <a href class="block panel padder-v bg-primary item">
+                                        <span class="text-white font-thin h1 block">930</span>
+                                        <span class="text-muted text-xs">Uploads</span>
+                <span class="bottom text-right w-full">
+                  <i class="fa fa-cloud-upload text-muted m-r-sm"></i>
+                </span>
+                                    </a>
+                                </div>
+                            </ion-slide>
+                            <ion-slide >
+                                <div >
+                                    <a href class="block panel padder-v bg-info item">
+                                        <span class="text-white font-thin h1 block">432</span>
+                                        <span class="text-muted text-xs">Comments</span>
+                <span class="top text-left">
+                  <i class="fa fa-caret-up text-warning m-l-sm"></i>
+                </span>
+                                    </a>
+                                </div>
+                            </ion-slide>
+                        </ion-slide-box>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>

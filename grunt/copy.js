@@ -17,28 +17,38 @@ module.exports = {
 
             // fontawesome
             {src: "bower_components/font-awesome/css/font-awesome.min.css", dest: "www/src/css/font-awesome.min.css"},
-            {src: "**", dest: "www/src/fonts", cwd: 'bower_components/font-awesome/fonts', expand : true},
+            {src: "**", dest: "www/src/fonts", cwd: 'bower_components/font-awesome/fonts', expand: true},
 
             // bootstrap
             {src: "bower_components/bootstrap/dist/css/bootstrap.css", dest: "www/src/css/bootstrap.css"},
             {src: "bower_components/bootstrap/dist/js/bootstrap.js", dest: "www/src/js/jquery/bootstrap.js"},
-            {src: "**", dest: "www/src/fonts", cwd: 'bower_components/bootstrap/fonts', expand : true},
+            {src: "**", dest: "www/src/fonts", cwd: 'bower_components/bootstrap/fonts', expand: true},
 
             // nav tree
-            {src: "**", dest: "www/src/js/modules/abn_tree", cwd: 'bower_components/angular-bootstrap-nav-tree/dist', expand : true},
+            {src: "**", dest: "www/src/js/modules/abn_tree", cwd: 'bower_components/angular-bootstrap-nav-tree/dist', expand: true},
             // image crop
-            {src: "**", dest: "www/src/js/modules/ngImgCrop/", cwd: 'bower_components/ngImgCrop/compile/minified', expand : true},
+            {src: "**", dest: "www/src/js/modules/ngImgCrop/", cwd: 'bower_components/ngImgCrop/compile/minified', expand: true},
             // file upload
             {src: "bower_components/angular-file-upload/angular-file-upload.js", dest: "www/src/js/modules/angular-file-upload/angular-file-upload.js"},
             // angular-facebook
             {src: "bower_components/angular-facebook/lib/angular-facebook.js", dest: "www/src/js/libs/angular-facebook.js"},
-            {src: "bower_components/angular-facebook/lib/angular-facebook-phonegap.js", dest: "www/src/js/libs/angular-facebook-phonegap.js"}
+            {src: "bower_components/angular-facebook/lib/angular-facebook-phonegap.js", dest: "www/src/js/libs/angular-facebook-phonegap.js"},
+
+            // Ionic
+            {src: "bower_components/ionic/js/ionic.bundle.min.js", dest: "www/src/js/libs/ionic/ionic.bundle.min.js"},
+            {src: "bower_components/ionic/js/ionic.min.js", dest: "www/src/js/libs/ionic/ionic.min.js"},
+            {src: "bower_components/ionic/js/ionic-angular.min.js", dest: "www/src/js/libs/ionic/ionic-angular.min.js"},
+            {src: "bower_components/ionic/css/ionic.css", dest: "www/src/css/ionic.css"},
+            {src: "bower_components/ionic/fonts/ionicons.eot", dest: "www/src/fonts/ionicons.eot"},
+            {src: "bower_components/ionic/fonts/ionicons.svg", dest: "www/src/fonts/ionicons.svg"},
+            {src: "bower_components/ionic/fonts/ionicons.ttf", dest: "www/src/fonts/ionicons.ttf"},
+            {src: "bower_components/ionic/fonts/ionicons.woff", dest: "www/src/fonts/ionicons.woff"}
         ]
     },
     demo: {
         files: [
-            {expand: true, dest: 'demo/', src:'**', cwd:'www/src/'},
-            {dest: 'demo/index.html', src:'www/src/index.min.html'}
+            {expand: true, dest: 'demo/', src: '**', cwd: 'www/src/'},
+            {dest: 'demo/index.html', src: 'www/src/index.min.html'}
         ]
     }
 };

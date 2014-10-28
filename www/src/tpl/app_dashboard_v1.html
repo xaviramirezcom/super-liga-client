@@ -1,5 +1,5 @@
 <div class="hbox hbox-auto-xs hbox-auto-sm" ng-init="
-    app.settings.asideFolded = false; 
+    app.settings.asideFolded = false;
     app.settings.asideDock = false;
   ">
   <!-- main -->
@@ -14,17 +14,17 @@
         <div class="col-sm-6 text-right hidden-xs">
           <div class="inline m-r text-left">
             <div class="m-b-xs">1290 <span class="text-muted">items</span></div>
-            <div ng-init="data1=[ 106,108,110,105,110,109,105,104,107,109,105,100,105,102,101,99,98 ]" 
-              ui-jq="sparkline" 
-              ui-options="{{data1}}, {type:'bar', height:20, barWidth:5, barSpacing:1, barColor:'#dce5ec'}" 
+            <div ng-init="data1=[ 106,108,110,105,110,109,105,104,107,109,105,100,105,102,101,99,98 ]"
+              ui-jq="sparkline"
+              ui-options="{{data1}}, {type:'bar', height:20, barWidth:5, barSpacing:1, barColor:'#dce5ec'}"
               class="sparkline inline">loading...
             </div>
           </div>
           <div class="inline text-left">
             <div class="m-b-xs">$30,000 <span class="text-muted">revenue</span></div>
-            <div ng-init="data2=[ 105,102,106,107,105,104,101,99,98,109,105,100,108,110,105,110,109 ]" 
-              ui-jq="sparkline" 
-              ui-options="{{data2}}, {type:'bar', height:20, barWidth:5, barSpacing:1, barColor:'#dce5ec'}" 
+            <div ng-init="data2=[ 105,102,106,107,105,104,101,99,98,109,105,100,108,110,105,110,109 ]"
+              ui-jq="sparkline"
+              ui-options="{{data2}}, {type:'bar', height:20, barWidth:5, barSpacing:1, barColor:'#dce5ec'}"
               class="sparkline inline">loading...
             </div>
           </div>
@@ -36,7 +36,9 @@
       <!-- stats -->
       <div class="row">
         <div class="col-md-5">
+
           <div class="row row-sm text-center">
+
             <div class="col-xs-6">
               <div class="panel padder-v item">
                 <div class="h1 text-info font-thin h1">521</div>
@@ -97,7 +99,7 @@
               [
                 { data: {{d0_1}}, label:'TV', points: { show: true, radius: 1}, splines: { show: showSpline, tension: 0.4, lineWidth: 1, fill: 0.8 } },
                 { data: {{d0_2}}, label:'Mag', points: { show: true, radius: 1}, splines: { show: showSpline, tension: 0.4, lineWidth: 1, fill: 0.8 } }
-              ], 
+              ],
               {
                 colors: ['{{app.color.info}}', '{{app.color.primary}}'],
                 series: { shadowSize: 3 },
@@ -123,7 +125,7 @@
           <div ui-jq="plot" ui-options="
             [
               { data: {{d4}}, lines: { show: true, lineWidth: 1, fill:true, fillColor: { colors: [{opacity: 0.2}, {opacity: 0.8}] } } }
-            ], 
+            ],
             {
               colors: ['{{app.color.light}}'],
               series: { shadowSize: 3 },
@@ -185,7 +187,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">            
+          <div class="col-md-6">
             <div class="row row-sm">
               <div class="col-xs-6 text-center">
                 <div ui-jq="easyPieChart" ui-options="{
@@ -221,7 +223,7 @@
                 </div>
                 <div class="text-muted font-bold text-xs m-t m-b">Started</div>
               </div>
-            </div>            
+            </div>
           </div>
         </div>
       </div>
@@ -237,7 +239,7 @@
                 <i class="fa fa-circle text-info m-r-xs m-l-sm"></i> 30
                 <i class="fa fa-circle text-warning m-r-xs m-l-sm"></i> 98
               </span>
-              <h4 class="font-thin m-t-none m-b-none text-muted">Teammates</h4>              
+              <h4 class="font-thin m-t-none m-b-none text-muted">Teammates</h4>
             </div>
             <ul class="list-group list-group-lg m-b-none">
               <li class="list-group-item">
@@ -275,7 +277,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6">            
+        <div class="col-md-6">
           <div class="list-group list-group-lg list-group-sp">
             <a herf class="list-group-item clearfix">
               <span class="pull-left thumb-sm avatar m-r">
@@ -467,9 +469,9 @@
             </li>
           </ul>
         </div>
-      </tab>      
+      </tab>
     </tabset>
-    <div class="padder-md">      
+    <div class="padder-md">
       <!-- streamline -->
       <div class="m-b text-md">Recent Activity</div>
       <div class="streamline b-l m-b">
