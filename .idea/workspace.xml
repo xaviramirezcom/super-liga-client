@@ -32,19 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/src/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="68" selection-start="6362" selection-end="6362" vertical-scroll-proportion="0.0" vertical-offset="1837" max-vertical-offset="10530">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ionic.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/src/css/ionic.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1582" column="0" selection-start="44326" selection-end="44369" vertical-scroll-proportion="-4.1754384" vertical-offset="28238" max-vertical-offset="140742">
+            <state line="6107" column="0" selection-start="164302" selection-end="176831" vertical-scroll-proportion="-3.8947368" vertical-offset="109704" max-vertical-offset="140742">
               <folding />
             </state>
           </provider>
@@ -53,7 +44,7 @@
       <file leaf-file-name="app.custom.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/src/css/less/app.custom.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="0" selection-start="17791" selection-end="17791" vertical-scroll-proportion="-23.407408" vertical-offset="358" max-vertical-offset="1818">
+            <state line="188" column="16" selection-start="20971" selection-end="20971" vertical-scroll-proportion="-2.1309524" vertical-offset="3205" max-vertical-offset="11772">
               <folding />
             </state>
           </provider>
@@ -62,55 +53,61 @@
       <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/src/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="578" column="11" selection-start="20155" selection-end="20155" vertical-scroll-proportion="0.0" vertical-offset="9583" max-vertical-offset="11142">
+            <state line="91" column="12" selection-start="3846" selection-end="3887" vertical-scroll-proportion="-5.1929827" vertical-offset="1342" max-vertical-offset="12006">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app_dashboard_v1.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/src/tpl/app_dashboard_v1.html">
+      <file leaf-file-name="ionic-angular.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/src/js/libs/ionic/ionic-angular.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="1676" selection-end="1676" vertical-scroll-proportion="-1.5" vertical-offset="594" max-vertical-offset="9702">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="16" column="9680" selection-start="74133" selection-end="74133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="championship_new.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ionic.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/src/js/libs/ionic/ionic.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="12604" selection-start="77006" selection-end="77006" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ionic-angular.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower_components/ionic/js/ionic-angular.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8584" column="13" selection-start="271485" selection-end="271485" vertical-scroll-proportion="0.0" vertical-offset="154112" max-vertical-offset="165258">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ionic.bundle.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower_components/ionic/js/ionic.bundle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43822" column="13" selection-start="1507661" selection-end="1507661" vertical-scroll-proportion="0.0" vertical-offset="788522" max-vertical-offset="799668">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ionic.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower_components/ionic/js/ionic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7336" column="9" selection-start="229123" selection-end="229123" vertical-scroll-proportion="0.0" vertical-offset="131648" max-vertical-offset="136872">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="championship_new.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/src/tpl/championship_new.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1080">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.layout.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/src/css/less/app.layout.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="357" column="4" selection-start="5272" selection-end="5272" vertical-scroll-proportion="-6.6666665" vertical-offset="6246" max-vertical-offset="7182">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.nav.offscreen.less" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/src/css/less/app.nav.offscreen.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="41" selection-start="110" selection-end="110" vertical-scroll-proportion="0.12244898" vertical-offset="0" max-vertical-offset="990">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/src/tpl/app.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="16" selection-start="474" selection-end="474" vertical-scroll-proportion="-1.9166666" vertical-offset="91" max-vertical-offset="1476">
+            <state line="11" column="90" selection-start="637" selection-end="637" vertical-scroll-proportion="0.15384616" vertical-offset="90" max-vertical-offset="1386">
               <folding />
             </state>
           </provider>
@@ -136,7 +133,6 @@
         <option value="$PROJECT_DIR$/www/championships.html" />
         <option value="$PROJECT_DIR$/www/assets/css/custom.css" />
         <option value="$PROJECT_DIR$/www/js/index.js" />
-        <option value="$PROJECT_DIR$/www/src/js/services.js" />
         <option value="$PROJECT_DIR$/www/src/css/app.css" />
         <option value="$PROJECT_DIR$/www/package.json" />
         <option value="$PROJECT_DIR$/grunt/clean.js" />
@@ -149,20 +145,22 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/www/src/tpl/page_signin_index.html" />
         <option value="$PROJECT_DIR$/www/src/tpl/page_signup.html" />
-        <option value="$PROJECT_DIR$/www/src/js/controllers.js" />
         <option value="$PROJECT_DIR$/www/src/tpl/blocks/nav.html" />
         <option value="$PROJECT_DIR$/www/src/tpl/ui_widgets.html" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/grunt/copy.js" />
-        <option value="$PROJECT_DIR$/www/src/css/ionic.css" />
-        <option value="$PROJECT_DIR$/www/src/css/less/app.custom.less" />
-        <option value="$PROJECT_DIR$/www/src/index.html" />
         <option value="$PROJECT_DIR$/www/src/tpl/new_championship.html" />
         <option value="$PROJECT_DIR$/www/src/tpl/app.html" />
         <option value="$PROJECT_DIR$/www/src/tpl/app_dashboard_v1.html" />
         <option value="$PROJECT_DIR$/www/src/js/app.js" />
-        <option value="$PROJECT_DIR$/www/src/tpl/championship_new.html" />
         <option value="$PROJECT_DIR$/www/src/css/less/app.nav.offscreen.less" />
+        <option value="$PROJECT_DIR$/www/src/js/services.js" />
+        <option value="$PROJECT_DIR$/www/src/l10n/en.js" />
+        <option value="$PROJECT_DIR$/www/src/css/ionic.css" />
+        <option value="$PROJECT_DIR$/www/src/index.html" />
+        <option value="$PROJECT_DIR$/www/src/css/less/app.custom.less" />
+        <option value="$PROJECT_DIR$/www/src/js/controllers.js" />
+        <option value="$PROJECT_DIR$/www/src/tpl/championship_new.html" />
       </list>
     </option>
   </component>
@@ -199,7 +197,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -290,7 +287,137 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="l10n" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="super-liga-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="super-liga-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="super-liga-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="super-liga-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="super-liga-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="super-liga-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="super-liga-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="super-liga-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="super-liga-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="super-liga-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-translate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -496,6 +623,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -512,7 +640,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ionic/tabs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ptx" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
   </component>
   <component name="RecentsManager">
@@ -577,18 +705,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1365" y="27" width="1922" height="1054" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2172524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17412141" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13897938" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.117263846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31487513" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -648,59 +776,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/src/tpl/page_signin_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="6" selection-start="853" selection-end="853" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="414" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="31" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="990" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="9" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="846" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="14" selection-start="1908" selection-end="1908" vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="936" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="6" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="990" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="936" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="53" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="1458" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
@@ -711,11 +789,6 @@
     <entry file="file://$PROJECT_DIR$/www/src/css/animate.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="27" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="9414" max-vertical-offset="19854" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/angular-stripped.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="707.1111" vertical-offset="19092" max-vertical-offset="20250" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/index.min.html">
@@ -760,9 +833,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="10" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="180">
-          <folding />
-        </state>
+        <state line="4" column="10" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="180" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/css/less/app.less">
@@ -772,9 +843,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/tpl/page_signin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="12" selection-start="1531" selection-end="1620" vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="684">
-          <folding />
-        </state>
+        <state line="29" column="12" selection-start="1531" selection-end="1620" vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="684" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/tpl/table_datatable.html">
@@ -784,9 +853,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="11" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="270">
-          <folding />
-        </state>
+        <state line="5" column="11" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="270" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/tpl/page_signin_index.html">
@@ -796,50 +863,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/tpl/page_signup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="61" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="828">
-          <folding />
-        </state>
+        <state line="21" column="61" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="828" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/tpl/blocks/aside.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="1170">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="1170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/tpl/blocks/nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="34" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="342">
-          <folding />
-        </state>
+        <state line="3" column="34" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="342" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/tpl/ui_widgets.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="196" column="14" selection-start="10252" selection-end="10252" vertical-scroll-proportion="17.074074" vertical-offset="2837" max-vertical-offset="3726">
-          <folding>
-            <element signature="tag#div#2;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#2;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#4;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#4;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#5;tag#div#0;tag#div#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="196" column="14" selection-start="10252" selection-end="10252" vertical-scroll-proportion="17.074074" vertical-offset="2837" max-vertical-offset="3726" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/js/directives.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4608">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4608" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="24" selection-start="1508" selection-end="1508" vertical-scroll-proportion="-26.0" vertical-offset="270" max-vertical-offset="1170">
-          <folding />
-        </state>
+        <state line="54" column="24" selection-start="1508" selection-end="1508" vertical-scroll-proportion="-26.0" vertical-offset="270" max-vertical-offset="1170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
@@ -851,73 +900,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ionic.project">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="10" selection-start="1527" selection-end="1527" vertical-scroll-proportion="-10.962963" vertical-offset="766" max-vertical-offset="1242">
-          <folding />
-        </state>
+        <state line="59" column="10" selection-start="1527" selection-end="1527" vertical-scroll-proportion="-10.962963" vertical-offset="766" max-vertical-offset="1242" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GruntFile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/ionic/css/ionic.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="140742">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="140742" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grunt/copy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="98" selection-start="3709" selection-end="3709" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/css/ionic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1582" column="0" selection-start="44326" selection-end="44369" vertical-scroll-proportion="-4.1754384" vertical-offset="28238" max-vertical-offset="140742">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/css/less/app.custom.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="17791" selection-end="17791" vertical-scroll-proportion="-23.407408" vertical-offset="358" max-vertical-offset="1818">
-          <folding />
-        </state>
+        <state line="44" column="98" selection-start="3709" selection-end="3709" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/tpl/app_dashboard_v1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1676" selection-end="1676" vertical-scroll-proportion="-1.5" vertical-offset="594" max-vertical-offset="9702">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="40" column="0" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="9702">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/js/controllers.js">
+    <entry file="file://$PROJECT_DIR$/www/src/tpl/app.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="578" column="11" selection-start="20155" selection-end="20155" vertical-scroll-proportion="0.0" vertical-offset="9975" max-vertical-offset="11142">
+        <state line="14" column="16" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="1476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/css/less/app.layout.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="357" column="4" selection-start="5272" selection-end="5272" vertical-scroll-proportion="0.0" vertical-offset="6246" max-vertical-offset="7182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/css/less/app.nav.offscreen.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="41" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="990">
           <folding />
         </state>
       </provider>
@@ -929,6 +963,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/l10n/it_IT.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="24" selection-start="1055" selection-end="1070" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1404">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/js/angular/angular-translate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="50" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18864">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="35" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.0" vertical-offset="520" max-vertical-offset="1458">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/l10n/en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="26" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/tpl/form_elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="359" column="21" selection-start="13609" selection-end="13839" vertical-scroll-proportion="-4.1309524" vertical-offset="6115" max-vertical-offset="14688">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/angular-stripped.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="590" column="81" selection-start="26109" selection-end="26162" vertical-scroll-proportion="-6.7777777" vertical-offset="10437" max-vertical-offset="20250">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="7" selection-start="882" selection-end="882" vertical-scroll-proportion="-7.3333335" vertical-offset="54" max-vertical-offset="990">
@@ -936,30 +1012,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/tpl/app.html">
+    <entry file="file://$PROJECT_DIR$/www/src/css/ionic.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="474" selection-end="474" vertical-scroll-proportion="-1.9166666" vertical-offset="91" max-vertical-offset="1476">
+        <state line="6107" column="0" selection-start="164302" selection-end="176831" vertical-scroll-proportion="-3.8947368" vertical-offset="109704" max-vertical-offset="140742">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/css/less/app.custom.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="188" column="16" selection-start="20971" selection-end="20971" vertical-scroll-proportion="-2.1309524" vertical-offset="3205" max-vertical-offset="11772">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/js/libs/ionic/ionic-angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="9680" selection-start="74133" selection-end="74133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/js/libs/ionic/ionic.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="12604" selection-start="77006" selection-end="77006" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/ionic/js/ionic-angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8584" column="13" selection-start="271485" selection-end="271485" vertical-scroll-proportion="0.0" vertical-offset="154112" max-vertical-offset="165258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/ionic/js/ionic.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43822" column="13" selection-start="1507661" selection-end="1507661" vertical-scroll-proportion="0.0" vertical-offset="788522" max-vertical-offset="799668">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/ionic/js/ionic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7336" column="9" selection-start="229123" selection-end="229123" vertical-scroll-proportion="0.0" vertical-offset="131648" max-vertical-offset="136872">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="12" selection-start="3846" selection-end="3887" vertical-scroll-proportion="-5.1929827" vertical-offset="1342" max-vertical-offset="12006">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/tpl/championship_new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/css/less/app.layout.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="357" column="4" selection-start="5272" selection-end="5272" vertical-scroll-proportion="-6.6666665" vertical-offset="6246" max-vertical-offset="7182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/css/less/app.nav.offscreen.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="41" selection-start="110" selection-end="110" vertical-scroll-proportion="0.12244898" vertical-offset="0" max-vertical-offset="990">
+        <state line="11" column="90" selection-start="637" selection-end="637" vertical-scroll-proportion="0.15384616" vertical-offset="90" max-vertical-offset="1386">
           <folding />
         </state>
       </provider>

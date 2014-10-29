@@ -1,5 +1,25 @@
 {
 
+    "championship":{
+        "new":{
+            "championship_name":{
+                "LABEL":"Name",
+                "PLACEHOLDER":"Enter the name"
+        },
+        "discipline":{
+            "LABEL":"Discipline",
+            "PLACEHOLDER":"Enter the discipline"
+        },
+        "image":{
+            "LABEL":"Image",
+                "CHANGE_IMAGE":"Change Image"
+        },
+        "next":{
+            "LABEL":"NEXT"
+        }
+    }
+},
+
 "header" : {
   "navbar" : {
     "UPLOAD" : "Upload",

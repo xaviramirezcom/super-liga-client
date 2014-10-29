@@ -11,7 +11,7 @@ var services = angular.module('app.services', []);
 services.factory('restServices', ['$http', function ($http) {
 
 
-    var endpoint = 'http://192.168.0.107:8888/api/v1/';
+    var endpoint = 'http://192.168.43.161:8888/api/v1/';
 
     function send (path, params) {
         params = params || {};

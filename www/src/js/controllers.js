@@ -84,6 +84,54 @@ angular.module('app.controllers', ['pascalprecht.translate', 'ngCookies'])
         }])
 
     // bootstrap controller
+    .controller('ChampionshipNewController', ['$scope', 'restServices', '$ionicPopup', '$ionicSlideBoxDelegate',
+        function ($scope, restServices, $ionicPopup, $ionicSlideBoxDelegate) {
+
+        $scope.init = function () {
+            console.log($ionicSlideBoxDelegate);
+            $ionicSlideBoxDelegate.enableSlide(true);
+            console.log($ionicSlideBoxDelegate.enableSlide());
+            $scope.disciplines = [];
+            $scope.newChampionship = {};
+            $scope.randomColor = Math.floor((Math.random()*1000000)+1);
+            restServices.get('catalog/discipline'
+
+                ).then(function (response) {
+                    $scope.disciplines = response.data.data;
+                    console.log($scope.disciplines);
+                }, function () {
+                    $scope.authError = 'Sorry, something goes wrong';
+                });
+        }
+        $scope.getInitials = function () {
+            if($scope.newChampionship.name!=undefined){
+                return $scope.newChampionship.name.split(' ').map(function (s) {
+                    return s.charAt(0).toUpperCase();
+                }).join('');
+            }
+            return "";
+
+        }
+        $scope.stepOneNext = function() {
+            if($scope.newChampionship.name != undefined && $scope.newChampionship.discipline!=undefined){
+                $ionicSlideBoxDelegate.next();
+                console.log("porqueria no es");
+            }else{
+                var alertPopup = $ionicPopup.alert({
+                    title: 'Don\'t eat that!',
+                    template: 'It might taste good'
+                });
+                alertPopup.then(function(res) {
+                    console.log('Thank you for not eating my delicious ice cream cone');
+                });
+            }
+
+
+        };
+        $scope.init();
+
+
+    }])
     .controller('AccordionDemoCtrl', ['$scope', function ($scope) {
         $scope.oneAtATime = true;
 
@@ -569,7 +617,7 @@ angular.module('app.controllers', ['pascalprecht.translate', 'ngCookies'])
                 restServices.post('user/login',
                     {email: $scope.user.email, password: $scope.user.password}
                 ).then(function (response) {
-                        $localStorage.user={};
+                        $localStorage.user = {};
                         $localStorage.user.login = true;
                         $state.go('app.dashboard-v1');
                     }, function () {
@@ -593,7 +641,7 @@ angular.module('app.controllers', ['pascalprecht.translate', 'ngCookies'])
                 restServices.post('user/signup',
                     {name: $scope.user.name, email: $scope.user.email, password: $scope.user.password}
                 ).then(function (response) {
-                        $localStorage.user={};
+                        $localStorage.user = {};
                         $localStorage.user.login = true;
                         $state.go('app.dashboard-v1');
                     }, function () {
