@@ -6562,3 +6562,87 @@ a.button.icon-right:before {
   cursor: default !important;
   opacity: 0.4;
 }
+
+/**
+ * Loading
+ * --------------------------------------------------
+ */
+
+.loading-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 13;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  -webkit-transition: 0.2s opacity linear;
+     -moz-transition: 0.2s opacity linear;
+          transition: 0.2s opacity linear;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+     -moz-justify-content: center;
+          justify-content: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+     -moz-align-items: center;
+          align-items: center;
+}
+
+.loading-container:not(.visible) .icon {
+  display: none;
+}
+
+.loading-container.visible {
+  visibility: visible;
+}
+
+.loading-container.active {
+  opacity: 1;
+}
+
+.loading-container .loading {
+  padding: 20px;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  text-overflow: ellipsis;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+}
+
+.loading-container .loading h1,
+.loading-container .loading h2,
+.loading-container .loading h3,
+.loading-container .loading h4,
+.loading-container .loading h5,
+.loading-container .loading h6 {
+  color: #fff;
+}
+
+.fileUpload {
+  position: relative;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}

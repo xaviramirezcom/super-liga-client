@@ -19,7 +19,8 @@ var app = angular.module('app', [
             'app.services',
             'app.directives',
             'app.controllers',
-            'ionic'
+            'ionic',
+            'angularFileUpload'
         ])
         .run(
             [          '$rootScope', '$state', '$stateParams',

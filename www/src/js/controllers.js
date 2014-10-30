@@ -84,54 +84,91 @@ angular.module('app.controllers', ['pascalprecht.translate', 'ngCookies'])
         }])
 
     // bootstrap controller
-    .controller('ChampionshipNewController', ['$scope', 'restServices', '$ionicPopup', '$ionicSlideBoxDelegate',
-        function ($scope, restServices, $ionicPopup, $ionicSlideBoxDelegate) {
+    .controller('ChampionshipNewController', ['$scope', 'restServices', '$ionicPopup', '$ionicSlideBoxDelegate', 'FileUploader', 'endpoint','$ionicLoading',
+        function ($scope, restServices, $ionicPopup, $ionicSlideBoxDelegate, FileUploader, endpoint, $ionicLoading) {
 
-        $scope.init = function () {
-            console.log($ionicSlideBoxDelegate);
-            $ionicSlideBoxDelegate.enableSlide(true);
-            console.log($ionicSlideBoxDelegate.enableSlide());
-            $scope.disciplines = [];
-            $scope.newChampionship = {};
-            $scope.randomColor = Math.floor((Math.random()*1000000)+1);
-            restServices.get('catalog/discipline'
+            $scope.init = function () {
+                console.log($ionicSlideBoxDelegate);
+                $ionicSlideBoxDelegate.enableSlide(true);
+                console.log($ionicSlideBoxDelegate.enableSlide());
+                $scope.disciplines = [];
+                $scope.newChampionship = {name: "Nuevo_Campeonato"};
+                $scope.uploadedImage = false;
+                $scope.randomColor = Math.floor((Math.random() * 1000000) + 1);
+                restServices.get('catalog/discipline'
 
-                ).then(function (response) {
-                    $scope.disciplines = response.data.data;
-                    console.log($scope.disciplines);
-                }, function () {
-                    $scope.authError = 'Sorry, something goes wrong';
-                });
-        }
-        $scope.getInitials = function () {
-            if($scope.newChampionship.name!=undefined){
-                return $scope.newChampionship.name.split(' ').map(function (s) {
-                    return s.charAt(0).toUpperCase();
-                }).join('');
+                    ).then(function (response) {
+                        $scope.disciplines = response.data.data;
+                        console.log($scope.disciplines);
+                    }, function () {
+                        $scope.authError = 'Sorry, something goes wrong';
+                    });
             }
-            return "";
+            $scope.getImageUrl = function () {
 
-        }
-        $scope.stepOneNext = function() {
-            if($scope.newChampionship.name != undefined && $scope.newChampionship.discipline!=undefined){
-                $ionicSlideBoxDelegate.next();
-                console.log("porqueria no es");
-            }else{
-                var alertPopup = $ionicPopup.alert({
-                    title: 'Don\'t eat that!',
-                    template: 'It might taste good'
-                });
-                alertPopup.then(function(res) {
-                    console.log('Thank you for not eating my delicious ice cream cone');
-                });
+                if ($scope.newChampionship.name != undefined && $scope.uploadedImage === false) {
+                    var path = 'http://dummyimage.com/200x200/' + $scope.randomColor + '/fff.gif&text=';
+                    return path + $scope.newChampionship.name.split(' ').map(function (s) {
+                        return s.charAt(0).toUpperCase();
+                    }).join('');
+                } else if ($scope.uploadedImage === true) {
+                    return $scope.uploadedImageURL;
+                }
+
+                return 'http://dummyimage.com/200x200/' + $scope.randomColor + '/fff.gif&text=New';;
+
             }
+            $scope.stepOneNext = function () {
+                if ($scope.newChampionship.name != undefined && $scope.newChampionship.discipline != undefined) {
+                    $ionicSlideBoxDelegate.next();
+                    console.log("porqueria no es");
+                } else {
+                    var alertPopup = $ionicPopup.alert({
+                        title: 'Don\'t eat that!',
+                        template: 'It might taste good'
+                    });
+                    alertPopup.then(function (res) {
+                        console.log('Thank you for not eating my delicious ice cream cone');
+                    });
+                }
 
 
-        };
-        $scope.init();
+            };
+            $scope.init();
+
+            //Uploader
+            var uploader = $scope.uploader = new FileUploader({
+                url: endpoint + 'image/upload'
+            });
+
+            // FILTERS
+
+            uploader.filters.push({
+                name: 'customFilter',
+                fn: function (item /*{File|FileLikeObject}*/, options) {
+                    return this.queue.length < 10;
+                }
+            });
+
+            // CALLBACKS
+
+            uploader.onAfterAddingFile = function (fileItem) {
+                console.log('onAfterAddingFile', fileItem);
+                uploader.uploadAll();
+                $ionicLoading.show({
+                    template: 'Loading...'
+                });
+            };
+            uploader.onCompleteItem = function (fileItem, response, status, headers) {
+                console.log(response);
+                $scope.uploadedImage = true;
+                $scope.uploadedImageURL = response.data;
+                $ionicLoading.hide();
+
+            };
 
 
-    }])
+        }])
     .controller('AccordionDemoCtrl', ['$scope', function ($scope) {
         $scope.oneAtATime = true;
 

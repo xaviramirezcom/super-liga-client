@@ -16,6 +16,9 @@
         },
         "next":{
             "LABEL":"NEXT"
+        },
+        "image":{
+            "UPLOAD":"Upload an Image"
         }
     }
 },

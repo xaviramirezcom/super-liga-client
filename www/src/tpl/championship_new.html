@@ -8,31 +8,64 @@
             <div class="row-row">
                 <div class="cell">
                     <div class="cell-inner">
-                        <ion-slide-box on-slide-changed="slideHasChanged($index)" show-pager="true" class="h-full"  ng-controller="FormDemoCtrl" ng-init="$ionicSlideBoxDelegate.enableSlide(true);">
+                        <ion-slide-box on-slide-changed="slideHasChanged($index)" show-pager="true" class="h-full"
+                                       ng-controller="FormDemoCtrl" ng-init="$ionicSlideBoxDelegate.enableSlide(true);">
                             <ion-slide ng-init="$ionicSlideBoxDelegate.enableSlide(true);">
-                                <div class="wrapper-md" >
+                                <div class="wrapper-md">
                                     <div class="row">
                                         <div class="col-sm-6">
+
+
+                                            <div class="panel panel-default">
+                                                <div class="panel-body">
+                                                    <div class="clearfix text-center">
+                                                        <div class="h4  m-b-xs">{{newChampionship.name}}
+                                                        </div>
+                                                        <small class="text-muted m-b">
+                                                            {{newChampionship.discipline.name}}
+                                                        </small>
+                                                        <div class="m-t-xs">
+                                                            <div class="thumb-lg">
+                                                                <img ng-src="{{getImageUrl()}}"
+                                                                     class="img-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="fileUpload btn btn-primary">
+                                                                <span translate="championship.new.image.UPLOAD"></span>
+                                                                <input type="file" class="upload"
+                                                                       nv-file-select=""
+                                                                       uploader="uploader"/>
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                             <form role="form">
+
+
                                                 <div class="form-group">
                                                     <label translate="championship.new.championship_name.LABEL"></label>
-                                                    <input type="input" class="form-control" ng-model="newChampionship.name"
+                                                    <input type="input" class="form-control"
+                                                           ng-model="newChampionship.name"
                                                            placeholder="{{ 'championship.new.championship_name.PLACEHOLDER' | translate }}">
                                                 </div>
                                                 <div class="form-group">
                                                     <label translate="championship.new.discipline.LABEL"></label>
                                                     <select class="form-control"
-                                                            ng-model="newChampionship.discipline" ng-options="discipline.name for discipline in disciplines"></select>
+                                                            ng-model="newChampionship.discipline"
+                                                            ng-options="discipline.name for discipline in disciplines"></select>
                                                 </div>
-                                                <div class="form-group">
-                                                    <label translate="championship.new.image.LABEL"></label>
-                                                    <div class="thumb-xl">
-                                                        <img ng-src="http://dummyimage.com/200x200/{{randomColor}}/fff.gif&text={{getInitials()}}"
-                                                             class="img-circle" ng-show="getInitials()">
-                                                    </div>
+                                                <div class="clearfix text-center">
+
+                                                    <button type="submit" class="btn btn-sm btn-primary"
+                                                            translate="championship.new.next.LABEL"
+                                                            data-ng-click="stepOneNext()">
+                                                    </button>
                                                 </div>
-                                                <button type="submit" class="btn btn-sm btn-primary" translate="championship.new.next.LABEL" data-ng-click="stepOneNext()">
-                                                </button>
                                             </form>
                                         </div>
                                     </div>
